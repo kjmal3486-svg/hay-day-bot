@@ -47,6 +47,6 @@ app.add_handler(CommandHandler("profit", profit))
 app.add_handler(CommandHandler("autoplant", autoplant))
 app.add_handler(CommandHandler("autoharvest", autoharvest))
 
-print("🌾 Hay Day Bot Started...")
-
-app.run_polling()
+if __name__ == "__main__":
+    print("🌾 Hay Day Bot Started...")
+    app.run_polling()
